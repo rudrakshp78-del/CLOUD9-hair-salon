@@ -44,7 +44,7 @@ i{
     font-size:12px;
 }
 .nav-links{
-    diaplay:none;
+    display:none;
     flex-direction:column;
 }
 .nav-links.active{
