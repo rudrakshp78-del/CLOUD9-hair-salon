@@ -45,13 +45,13 @@ i{
     font-size:12px;
 }
 
-nav ul{
+navLinks ul{
     display:flex;
     list-style:none;
     gap:35px;
 }
 
-nav ul li a{
+navLinks ul li a{
     color:white;
     text-decoration:none;
     font-weight:bold;
@@ -141,50 +141,16 @@ nav ul li a{
         background:#1f2026;
     }
 
-    navLinks.active{
+   #navLinks.active{
         display:block;
     }
 
-    navLinks ul{
+    #navLinks ul{
         flex-direction:column;
         gap:0;
     }
 
-    navLinks ul li{
-        text-align:center;
-        padding:15px 0;
-        border-top:1px solid rgba(255,255,255,0.1);
-    }
-
-    .menu-toggle{
-        display:block;
-    }
-
-    .appointment-btn{
-        display:none;
-    }
-}
-@media(max-width:425px){
-
-    nav{
-        display:none;
-        position:absolute;
-        top:100%;
-        left:0;
-        width:100%;
-        background:#1f2026;
-    }
-
-    nav.active{
-        display:block;
-    }
-
-    nav ul{
-        flex-direction:column;
-        gap:0;
-    }
-
-    nav ul li{
+    #navLinks ul li{
         text-align:center;
         padding:15px 0;
         border-top:1px solid rgba(255,255,255,0.1);
@@ -200,7 +166,7 @@ nav ul li a{
 }
 @media(max-width:375px){
 
-    nav{
+   #navLinks{
         display:none;
         position:absolute;
         top:100%;
@@ -209,50 +175,16 @@ nav ul li a{
         background:#1f2026;
     }
 
-    nav.active{
+   #navLinks.active{
         display:block;
     }
 
-    nav ul{
+    #navLinks ul{
         flex-direction:column;
         gap:0;
     }
 
-    nav ul li{
-        text-align:center;
-        padding:15px 0;
-        border-top:1px solid rgba(255,255,255,0.1);
-    }
-
-    .menu-toggle{
-        display:block;
-    }
-
-    .appointment-btn{
-        display:none;
-    }
-}
-@media(max-width:425px){
-
-    nav{
-        display:none;
-        position:absolute;
-        top:100%;
-        left:0;
-        width:100%;
-        background:#1f2026;
-    }
-
-    nav.active{
-        display:block;
-    }
-
-    nav ul{
-        flex-direction:column;
-        gap:0;
-    }
-
-    nav ul li{
+    #navLinks ul li{
         text-align:center;
         padding:15px 0;
         border-top:1px solid rgba(255,255,255,0.1);
