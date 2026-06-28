@@ -132,7 +132,7 @@ nav ul li a{
 
 @media(max-width:425px){
 
-    nav{
+   #navLinks{
         display:none;
         position:absolute;
         top:100%;
@@ -141,16 +141,16 @@ nav ul li a{
         background:#1f2026;
     }
 
-    nav.active{
+    navLinks.active{
         display:block;
     }
 
-    nav ul{
+    navLinks ul{
         flex-direction:column;
         gap:0;
     }
 
-    nav ul li{
+    navLinks ul li{
         text-align:center;
         padding:15px 0;
         border-top:1px solid rgba(255,255,255,0.1);
