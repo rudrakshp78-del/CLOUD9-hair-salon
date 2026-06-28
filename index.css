@@ -44,6 +44,13 @@ i{
     color:#d0d0d0;
     font-size:12px;
 }
+#navLinks {
+    display: none;
+}
+
+#navLinks.active {
+    display: block;
+}
 
 nav ul{
     display:flex;
