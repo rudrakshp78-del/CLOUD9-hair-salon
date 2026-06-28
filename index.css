@@ -45,7 +45,7 @@ i{
 }
 .nav-links{
     display:none;
-    flex-direction:column;
+   
 }
 .nav-links.active{
     display:flex;
