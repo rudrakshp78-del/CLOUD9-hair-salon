@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+.appointment-section{
+    position:relative;
+    min-height:100vh;
+
+    background:url("make1.jpg") center center/cover no-repeat;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:80px 8%;
+}
+
+.overlay{
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.65);
+}
+
+.appointment-container{
+    position:relative;
+    z-index:2;
+
+    width:100%;
+    max-width:1200px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:60px;
+}
+
+.appointment-text{
+    width:50%;
+    color:white;
+}
+
+.appointment-text h4{
+    color:#d4a373;
+    margin-bottom:15px;
+    letter-spacing:2px;
+}
+
+.appointment-text h1{
+    font-size:60px;
+    margin-bottom:20px;
+    line-height:1.2;
+}
+
+.appointment-text p{
+    font-size:18px;
+    line-height:1.8;
+    color:#ddd;
+}
+
+.appointment-form{
+    width:420px;
+
+    background:rgba(0,0,0,.82);
+
+    padding:40px;
+    border-radius:10px;
+}
+
+.appointment-form h2{
+    color:white;
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.appointment-form form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.appointment-form input,
+.appointment-form select,
+.appointment-form textarea{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:5px;
+    background:#222;
+    color:white;
+    font-size:16px;
+}
+
+.appointment-form input::placeholder,
+.appointment-form textarea::placeholder{
+    color:#bbb;
+}
+
+.appointment-form button{
+    background:#c89b5c;
+    color:white;
+    border:none;
+    padding:15px;
+    cursor:pointer;
+    border-radius:5px;
+    font-size:18px;
+    transition:.3s;
+}
+
+.appointment-form button:hover{
+    background:#a7773d;
+}
+
+@media(max-width:900px){
+
+.appointment-container{
+    flex-direction:column;
+}
+
+.appointment-text{
+    width:100%;
+    text-align:center;
+}
+
+.appointment-text h1{
+    font-size:40px;
+}
+
+.appointment-form{
+    width:100%;
+    max-width:500px;
+}
+
+}

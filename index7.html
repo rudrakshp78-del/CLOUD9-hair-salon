@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="make.css">
+    <title>Make Appointment</title>
+</head>
+<body>
+    
+</body>
+</html><section class="appointment-section">
+
+    <div class="overlay"></div>
+
+    <div class="appointment-container">
+
+        <div class="appointment-text">
+            <h4>Professional Hair Salon</h4>
+            <h1>Book Your <br> Appointment</h1>
+
+            <p>
+                Get the best haircut and grooming experience with our
+                professional barbers. Choose your service and reserve your
+                preferred time instantly.
+            </p>
+        </div>
+
+        <div class="appointment-form">
+
+            <h2>Make Appointment</h2>
+
+            <form action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key"
+                    value="YOUR_ACCESS_KEY">
+
+                <input type="text"
+                    name="full_name"
+                    placeholder="Full Name"
+                    required>
+
+                <input type="tel"
+                    name="phone_number"
+                    placeholder="Phone Number"
+                    required>
+
+                <input type="email"
+                    name="email_address"
+                    placeholder="Email Address">
+
+                <select name="service" required>
+                    <option value="">Select Service</option>
+                    <option>Hair Cut</option>
+                    <option>Beard Trim</option>
+                    <option>Hair Wash</option>
+                    <option>Hair Styling</option>
+                    <option>Hair Coloring</option>
+                    <option>Facial</option>
+                </select>
+
+                <input type="date" name="date" required>
+
+                <input type="time" name="time" required>
+
+                <textarea
+                    name="message"
+                    rows="4"
+                    placeholder="Special Request"></textarea>
+
+                <button type="submit">
+                    Book Appointment
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
