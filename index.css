@@ -151,10 +151,6 @@ nav ul li a{
         display:block;
     }
 
-    nav ul{
-        flex-direction:column;
-        gap:0;
-    }
 
     nav ul li{
         text-align:center;
