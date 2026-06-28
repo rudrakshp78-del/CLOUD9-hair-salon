@@ -140,7 +140,7 @@ nav.active{
 }
     
 nav ul{
-    flex-direction:column;
+    flex-direction:row;
     gap:0;
 }
 
