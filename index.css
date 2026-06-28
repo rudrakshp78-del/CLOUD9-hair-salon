@@ -43,6 +43,13 @@ i{
     color:#d0d0d0;
     font-size:12px;
 }
+.nav-links{
+    diaplay:none;
+    flex-direction:column;
+}
+.nav-links.active{
+    display:flex;
+}
 
 nav ul{
     display:flex;
