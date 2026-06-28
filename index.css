@@ -142,6 +142,7 @@ nav.active{
 nav ul{
     flex-direction:column;
     gap:0;
+}
 
 
 nav ul li{
