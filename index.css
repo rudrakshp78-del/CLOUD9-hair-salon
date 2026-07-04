@@ -60,7 +60,7 @@ font-size:14px;
 /* HERO SECTION */
 .hero{
 width: 100%;
-height:130vh;
+height:150vh;
 background:url("hair1.jpg") center center/cover no-repeat;
 position:relative;
 object-fit: cover;
