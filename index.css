@@ -105,7 +105,7 @@ margin-bottom:30px;
 .appointment-btn{
 display:flex;
 list-style:none
-background:lightorange;
+background-color:orange;
 color:white;
 text-decoration:none;
 padding:15px 30px;
