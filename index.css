@@ -160,7 +160,7 @@ display:block;
 }
 
 .appointment-btn{
-    display:none;
+    display:flex;
 }
 
 
@@ -196,7 +196,7 @@ display:block;
 }
 
 .appointment-btn{
-    display:none;
+    display:flex;
 }
 
 
