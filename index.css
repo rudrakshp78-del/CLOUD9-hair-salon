@@ -104,10 +104,12 @@ margin-bottom:30px;
 
 .appointment-btn{
 display:inline-block;
+width:auto;
 padding:15px 35px;
-background-color:#ff6b35
+background-color:#ff6b35;
 color:white;
 text-decoration:none;
+text-align:centre;
 border:2px solid #ff6b35;
 border-radius:5px;
 font-weight:bold;
@@ -154,10 +156,12 @@ display:block;
 
 .appointment-btn{
 display:inline-block;
+width:auto;
 padding:15px 35px;
-background-color:#ff6b35
+background-color:#ff6b35;
 color:white;
 text-decoration:none;
+text-align:centre;
 border:2px solid #ff6b35;
 border-radius:5px;
 font-weight:bold;
@@ -197,10 +201,12 @@ display:block;
 
 .appointment-btn{
 display:inline-block;
+width:auto;
 padding:15px 35px;
-background-color:#ff6b35
+background-color:#ff6b35;
 color:white;
 text-decoration:none;
+text-align:centre;
 border:2px solid #ff6b35;
 border-radius:5px;
 font-weight:bold;
