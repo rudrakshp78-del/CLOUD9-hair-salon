@@ -57,14 +57,6 @@ font-weight:bold;
 font-size:14px;
 }
 
-.appointment-btn{
-text-decoration:none;
-background:#b89c84;
-color:white;
-padding:15px 30px;
-font-weight:bold;
-}
-
 /* HERO SECTION */
 .hero{
 width: 100%;
@@ -110,7 +102,7 @@ line-height:1.6;
 margin-bottom:30px;
 }
 
-.btn{
+.appointment-btn{
 display:flex;
 list-style:none
 background:#b89c84;
