@@ -153,7 +153,14 @@ display:block;
 }
 
 .appointment-btn{
-    display:flex;
+display:inline-block;
+padding:15px 35px;
+background-color:#ff6b35
+color:white;
+text-decoration:none;
+border:2px solid #ff6b35;
+border-radius:5px;
+font-weight:bold;
 }
 
 
@@ -189,7 +196,14 @@ display:block;
 }
 
 .appointment-btn{
-    display:flex;
+display:inline-block;
+padding:15px 35px;
+background-color:#ff6b35
+color:white;
+text-decoration:none;
+border:2px solid #ff6b35;
+border-radius:5px;
+font-weight:bold;
 }
 
 
