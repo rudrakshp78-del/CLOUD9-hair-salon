@@ -113,7 +113,7 @@ font-weight:bold;
 }
 
 .menu-toggle{
-display:flex;
+display:none;
 background:none;
 border:none;
 color:white;
